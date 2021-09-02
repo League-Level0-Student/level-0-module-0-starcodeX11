@@ -3,16 +3,18 @@
 
 // 2. Code a size command to make it big enough for your picture
 
-//    The size command looks like this:      
-  size (100,200);
+//    The size command looks like this:
+  size (500,500);
 //    Try putting different numbers in the parentheses.
 //    See if you can figure out which number is the width, and which is the height
-
+fill(#0000FF); 
 
 // 3. Now add an ellipse command to draw a circle. An ellipse is like an oval.
 
 //    The ellipse command looks like this:      
  ellipse(250,250, 100,100);
+  ellipse(250,190, 80,80);
+   ellipse(250,150, 65,65);
 //    The first 2 numbers specify where to draw it. They are the x and y co-ordinates of the center of the ellipse.
 //    The third and fourth numbers are the size of the ellipse.
 //    The width is specified before the height. If they are the same, it draws a circle
