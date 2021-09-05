@@ -7,7 +7,9 @@
   size (500,500);
 //    Try putting different numbers in the parentheses.
 //    See if you can figure out which number is the width, and which is the height
-fill(#0000FF); 
+fill(#FFFFFF); 
+
+
 
 // 3. Now add an ellipse command to draw a circle. An ellipse is like an oval.
 
@@ -21,9 +23,12 @@ fill(#0000FF);
 //    Change the numbers and re-run the program to see what happens.
 
 // 4. Now add a rect command to draw a rectangle.
+fill(#000000); 
 
 //    The rect command looks like this:       
-rect(250,250, 100,100);
+rect(250,140, 10,10);
+fill(#FFFFFF); 
+rect(230,140, 10,10);
 
 //    Like the ellipse, the fist 2 numbers specify where to draw it, the other two are its size.
 //    The main difference is the x and y co-ordinates are the top left corner of the shape.
