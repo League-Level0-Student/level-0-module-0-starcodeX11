@@ -16,16 +16,19 @@ void setup() {
   
 // 2. The code below loads your face picture into the program. 
 //     Make sure the file name is correct for the face image you saved earlier
-face = loadImage("face.jpg");
+face = loadImage("flamingo4x.jpg");
   
 // 3. Set the size of the sketch. Make it big enough to show the face you chose.
-
+size(500,400);
+face.resize(500,400);
+background(face);
 // 4. Resize the face so it is the same size as the sketch
 
 // 5. Drag and drop an image with a mustache onto this sketch. 
 //    Try to find one with a transparent background. Use the same idea as in step 1.
 //    Make sure the file name is correct for the mustache image you saved.  
 mustache = loadImage("mustache.png");
+mustache.resize(200, 100);
 
   }
 
@@ -37,7 +40,7 @@ void draw() {
 
 // 7. DRAW MUSTACHE. Use the image() command to draw the mustache.  
 //                  The image command looks like this:
-image (mustache, 200,200);
+image (mustache, 212,151);
 //    The numbers specify where to draw the mustache. They represent the top left corner of the image
 //    Run the program to see if the mustache is drawn on the face. Get this working before you go on.
 //    If you need to resize the mustache, do it in the setup() method after you loaded the mustache image.
