@@ -21,7 +21,7 @@ public class PentagonCrazy {
 		rob.setRandomPenColor();
 		//  NUMBER OF SIDES. Make an int variable for the number of sides the shape will have.
 		//  				(Hint: its called PentagonCrazy)
-		int 5sizes = 5;
+		int num_sides = 5;
 		//  TURN ANGLE. Make another int variable for the angle the robot must turn. 
 		//  			Hint: Divide 360 by the number of sides the shape has to get the angle.
 		int ANGLE = 360 / 5;
@@ -33,10 +33,11 @@ public class PentagonCrazy {
 		
 				//  DRAW.  Make the robot move the amount in your count variable
 				rob.move(count);
+				rob.setRandomPenColor();
 				//  TURN.  Turn the robot the amount in your angle variable + 1
 				rob.turn(ANGLE + 1);
 				//  INCREASE COUNT. Increase the count by 1
-				count = count + 1
+				count = count + 1;
 		//  End the while loop here
 		}
 		//  Now hide the robot so you can see the pattern it has drawn.
