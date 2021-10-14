@@ -17,14 +17,19 @@ public class QuizGame {
 			JOptionPane.showMessageDialog(null,"you got it wrong! D: ");
 		}
 				// 3.  Use an if statement to check if their answer is correct
-				
+		 input = JOptionPane.showInputDialog("Do octopuses have 8 legs?");
 				// 4.  if the user's answer was correct, add one to their score 
-		
+		if (input.equals("TACOZ")) {
+			JOptionPane.showMessageDialog(null,"YOU'RE A GENIUS! ");
+		     score=score+2; }
+		else {
+			JOptionPane.showMessageDialog(null,"YOU'RE NOT SMART ");
+		}     
 		// MAKE MORE QUESTIONS. Ask more questions by repeating the above 
 				// Option: Subtract a point from their score for a wrong answer
 		
 		
 		// After all the questions have been asked, tell the user their final score 
-		
+		JOptionPane.showMessageDialog(null,"WE HAVE CORRECTED YOUR SCORE. YOU GOT " + score);
 	}
 }
